@@ -2,13 +2,13 @@ version: 0.2
 
 phases:
   pre_build:
-    commands:
-      - echo Pull loadimpact/k6 image..
-      - docker pull loadimpact/k6
+     commands:
+       - echo Pull loadimpact/k6 image..
+       - docker pull loadimpact/k6
   build:
-    commands:
-      - echo Run performance test
-      - docker run -i loadimpact/k6 run - <testesPerformance/desempenho/testeDesempenho.js
+     commands:
+       - echo Run performance test
+       - docker run -i loadimpact/k6 run - <testesPerformance/desempenho/testeDesempenho.js
   post_build:
-    commands:
-      - echo Performance test complete
+     commands:
+       - echo Performance test complete
