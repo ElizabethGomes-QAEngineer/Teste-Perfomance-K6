@@ -19,8 +19,6 @@ Submete o sistema a condições extremas de carga, como um número muito alto de
 
 
 
-## ⚙️ Installar
-
 
 ## ✅ Pre Requisitos
 
