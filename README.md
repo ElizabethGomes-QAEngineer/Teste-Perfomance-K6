@@ -1,6 +1,6 @@
 # Teste Perfomance K6
 
-![Texto alternativo](OrangeHRM.png)
+![Texto alternativo](testePerformancek6.png)
 
 # Testes de Desempenho, Carga, Smoke e Stress
 Este repositório contém um conjunto de testes abrangentes projetados para avaliar o desempenho e a confiabilidade do sistema em diferentes cenários. Os testes implementados incluem:
