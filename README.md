@@ -9,13 +9,13 @@ Este repositório contém um conjunto de testes abrangentes projetados para aval
 Este teste tem como objetivo medir o tempo de resposta, a taxa de transferência e a utilização de recursos do sistema sob condições normais de operação. Os resultados fornecem insights sobre a capacidade do sistema de lidar com a carga esperada de usuários e transações, além de identificar possíveis gargalos e áreas de otimização.
 
 **Teste de Carga**
-Este teste simula um número crescente de usuários acessando o sistema simultaneamente para determinar o ponto em que o desempenho começa a degradar ou o sistema falha. Os resultados ajudam a identificar os limites de capacidade do sistema e a entender como ele se comporta sob condições de carga máxima.
+Simula um número crescente de usuários acessando o sistema simultaneamente para determinar o ponto em que o desempenho começa a degradar ou o sistema falha. Os resultados ajudam a identificar os limites de capacidade do sistema e a entender como ele se comporta sob condições de carga máxima.
 
 **Teste de Fumaça (Smoke Test)**
-Este teste rápido e superficial verifica as funcionalidades básicas do sistema para garantir que ele esteja funcionando corretamente após uma nova versão ou alteração. O teste de fumaça é executado em um ambiente de teste para identificar problemas críticos precocemente e evitar que sejam propagados para ambientes de produção.
+Rápido e superficial verifica as funcionalidades básicas do sistema para garantir que ele esteja funcionando corretamente após uma nova versão ou alteração. O teste de fumaça é executado em um ambiente de teste para identificar problemas críticos precocemente e evitar que sejam propagados para ambientes de produção.
 
 **Teste de Stress**
-Este teste submete o sistema a condições extremas de carga, como um número muito alto de usuários ou transações, para identificar seus pontos fracos e determinar como ele se recupera de falhas. Os resultados ajudam a garantir que o sistema seja resiliente e capaz de lidar com situações inesperadas.
+Submete o sistema a condições extremas de carga, como um número muito alto de usuários ou transações, para identificar seus pontos fracos e determinar como ele se recupera de falhas. Os resultados ajudam a garantir que o sistema seja resiliente e capaz de lidar com situações inesperadas.
 
 
 
