@@ -19,7 +19,9 @@ export default function () {
 
     console.log( USER + PASS)
 
-    const res = http.post(`${BASE_URL}/user/register/`, {
+    const res = http.post(`${BASE_URL}/user/register/`, 
+        
+    {
        
         username: USER,
         first_name: 'crocrodilo',
