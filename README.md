@@ -21,16 +21,12 @@ Submete o sistema a condições extremas de carga, como um número muito alto de
 
 ## ⚙️ Installar
 
-O comando npm install chance instala a biblioteca Chance.js, que é uma ferramenta simples e poderosa para gerar dados aleatórios em JavaScript. Ele foi utilizado neste projeto e será necessário.
 
-```bash
-npm install chance
-```
 ## ✅ Pre Requisitos
 
 > **💡 NOTA:**
 > 
-> È necessário ter o [Node.js](https://nodejs.org)  instalado
+> È necessário ter o [k6](https://grafana.com/docs/k6/latest/set-up/install-k6/)  instalado
 
 
 
@@ -42,40 +38,42 @@ npm install chance
 **1.** **Clone o repositório na sua maquina 🖥️**
 
 ```bash
-git clone https://github.com/ElizabethGomes-QAEngineer/Automacao-Cypress-Java-Script-Orange-HRM.git
+git clone https://github.com/ElizabethGomes-QAEngineer/Teste-Perfomance-K6.git
 ```
 
 **2.** **Navegue até o diretório do projeto 📂**
 
 ```bash
-cd cypress-hrm
-````
-
-
-**3.** **Instale as dependências do projeto 📦**
-
-```bash
-npm install 
-```
-
-**4.** **Execute o Cypress para rodar os testes 🚀**
-
-abrir o Cypress com interface gráfica (GUI - Graphical User Interface)
-
-```bash
-npx cypress open
-````
-
-executar no modo headless (sem interface gráfica)
-
-```bash
-npx cypress run 
+cd perfomanceTest/testesPerformance
 ```
 
 
+**4.** **Execute o K6 para rodar os testes 🚀**
+
+
+```bash
+k6 run ./carga/testeCarga.js
+```
+
+```bash
+k6 run ./carga/testeLoad.js
+```
+
+```bash
+k6 run ./smoke/testeSmoke.js
+```
+
+
+```bash
+k6 run ./desempenho/testeDesempenho.js
+```
+
+```bash
+k6 run ./stress/testeStress.js
+```
 
 >
->**📜 ** **Nota** Este Projeto possui **CI***:
->Acessando CI através da branch **"ci-last"**
+>**📜 ** **Nota** Este Projeto possui **CI Smoke Teste Performance k6***:
+>Acessando CI através da branch **"ci-k6"**
 >clicar em ***github/workflows**
 >clicar em git hub **"action**
