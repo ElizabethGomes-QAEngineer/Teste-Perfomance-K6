@@ -3,7 +3,7 @@
 ![Texto alternativo](testePerformancek6.png)
 
 # Testes de Desempenho, Carga, Smoke e Stress
-Este repositório contém um conjunto de testes abrangentes projetados para avaliar o desempenho e a confiabilidade do sistema em diferentes cenários. Os testes implementados incluem:
+Este repositório contém um conjunto de testes abrangentes projetados para avaliar o desempenho e a confiabilidade do sistema em diferentes cenários para o back-end da API. Os testes implementados incluem:
 
 **Teste de Desempenho**
 Este teste tem como objetivo medir o tempo de resposta, a taxa de transferência e a utilização de recursos do sistema sob condições normais de operação. Os resultados fornecem insights sobre a capacidade do sistema de lidar com a carga esperada de usuários e transações, além de identificar possíveis gargalos e áreas de otimização.
